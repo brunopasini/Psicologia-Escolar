@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Psicologia</title>
+
+  <link rel="stylesheet" href="./style.css" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap" rel="stylesheet" />
+</head>
+
+<body>
+  <nav id="navigation">
+    <div class="wrapper">
+      <a class="logo" href="#home">
+      </a>
+      <div class="menu">
+        <ul>
+          <li><a href="#">Portfolio Psicologia</a></li>
+          <li>
+            <a onclick="closeMenu()" href="#home">Início</a>
+          </li>
+          <li><a onclick="closeMenu()" href="#about">Projetos</a></li>
+        </ul>
+      </div>
+
+      <button aria-expanded="false" aria-label="Abrir menu" onclick="openMenu()" class="open-menu">
+        <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M10 20H30" stroke="#00856F" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+          <path d="M10 12H30" stroke="#00856F" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+          <path d="M18 28L30 28" stroke="#00856F" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+        </svg>
+      </button>
+      <button aria-expanded="true" aria-label="Fechar menu" onclick="closeMenu()" class="close-menu">
+        <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M30 10L10 30M10 10L30 30" stroke="#FFFAF1" stroke-width="2" stroke-linecap="round"
+            stroke-linejoin="round" />
+        </svg>
+      </button>
+    </div>
+  </nav>
+
+  <section id="home">
+    <div class="wrapper">
+      <div class="col-a">
+        <header>
+          <h4>Portfólio de Psicologia</h4>
+          <h1>Sobre o Estágio</h1>
+        </header>
+        <div class="content">
+          <p>
+            Estudante de Psicologia Noeli Salete Machado, realizado estágio Escolar, na escola Ebi Centro de Educação
+            LTDA. Neste ambiente foi realizado atendimentos individuais dos estudantes, aplicação de dinâmicas,
+            acolhimento, aconselhamento e campanhas.
+
+          </p>
+          <a class="button" onclick="closeMenu()" target="_blank" href="assets/planoescolar.pdf">Projeto
+            em
+            PDF</a>
+
+        </div>
+      </div>
+      <div class="col-b">
+        <img src="./assets/psicoo.png" alt="Mulher negra vestindo moletom verde com as duas mãos no peito e sorrindo" />
+      </div>
+    </div>
+  </section>
+
+  <section id="about">
+    <div class="title-about">
+      <h1>Projetos</h1>
+    </div>
+    <div class="wrapper">
+      <div class="col-a">
+
+        <header>
+
+          <h2>Trabalhando com Emoções</h2>
+        </header>
+
+        <div class="content">
+          <p>
+            Emoções surgem de experiências e viver por si só já é uma experiência. Nós enfrentamos momentos felizes,
+            momentos tristes, momentos inusitados e tudo isso promove algo dentro da gente. Assim sendo, as situações da
+            vida exigem de nós uma resposta: nossos sentimentos.
+          </p>
+        </div>
+      </div>
+
+      <div class="col-b">
+        <img src="./assets/livros.png" alt="Doutor feliz segurando prancheta com pacientes" />
+      </div>
+
+    </div>
+
+  </section>
+  <section id="contact">
+    <div class="wrapper">
+      <div class="col-a content">
+        <header>
+          <h2>Sentimentos</h2>
+          <p>Sentimento é algo intrínseco a todo ser humano. Além do mais, é um tema que desperta curiosidade. Quem
+            nunca se perguntou a razão para estar um pouco mais triste ou até feliz demais por isso? Será que você já se
+            questionou sobre o que é estar apaixonado, por exemplo? Para discutir esse tipo de tema, nós fizemos uma
+            lista de sentimentos para você..</p>
+        </header>
+      </div>
+      <div class="col-b">
+        <img src="./assets/sentimentos.png" alt="Homem negro com moletom bege mexendo no celular e sorrindo" />
+      </div>
+    </div>
+  </section>
+  <section id="about">
+    <div class="wrapper">
+      <div class="col-a">
+        <header>
+          <h2>Tabela de Sentimentos</h2>
+        </header>
+        <div class="content">
+          <p>
+            O sentimento é uma informação que todos os seres são capazes de sentir e expressar. Essa informação tem em
+            si várias informações diferentes, ou seja, não existe um sentimento único, ele é plural nesse sentido.
+            Ademais, os sentimentos são diferentes entre si e podem se manifestar de diferentes formas dependendo do
+            contexto e dos indivíduos. Tabela aplicada aos alunos de 08 a 11 anos onde eles selecionavam o tipo de
+            sentimento de acordo com a frase.
+          </p>
+        </div>
+      </div>
+      <div class="col-b">
+        <img src="./assets/tabelas.png" alt="Doutor feliz segurando prancheta com pacientes" />
+      </div>
+    </div>
+  </section>
+  <section id="contact">
+    <div class="wrapper">
+      <div class="col-a content">
+        <header>
+          <h2>Dinâmica do Dado das emoções</h2>
+          <p>Realizado brincandeira com o dado das emoções onde o aluno joga o dado e a emoção que cair para cima seja
+            ela Alegria, Tristeza, Amor, Vergonha ou raiva, ele deveria comentar sobre uma vivência que teve de acordo
+            com a emoção.</p>
+        </header>
+      </div>
+      <div class="col-b">
+        <img src="./assets/dados.png" alt="Homem negro com moletom bege mexendo no celular e sorrindo" />
+      </div>
+    </div>
+  </section>
+  <section id="about">
+    <div class="wrapper">
+      <div class="col-a">
+        <header>
+          <h2>Campanha do Agasalho</h2>
+        </header>
+        <div class="content">
+          <p>
+            Juntamente com a coordenação da escola, realizei a abertura da campanha do Agasalho, onde explicamos aos
+            alunos sobre bondade, soliedariedade, empatia e a sensação em ajudar ao proxímo. A campanha arrecadou
+            diversas peças que foram doadas as famílias fragilizadas.
+          </p>
+        </div>
+      </div>
+      <div class="col-b">
+        <img src="./assets/agasalho.png" alt="Doutor feliz segurando prancheta com pacientes" />
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="wrapper">
+
+    </div>
+
+    <div class="col-b">
+    </div>
+  </footer>
+
+  <a id="backToTopButton" href="#home">
+    <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <circle cx="20" cy="20" r="20" fill="#00856F" />
+      <path d="M20 27V13" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+      <path d="M13 20L20 13L27 20" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+    </svg>
+  </a>
+
+  <!-- ScrollReaveal Lib -->
+  <script src="https://unpkg.com/scrollreveal"></script>
+  <script src="./main.js"></script>
+</body>
+
+</html>
